@@ -73,7 +73,7 @@ const paymentList = [
 ]
 
 export default function Coupons() {
-    const [isLoggedIn, setIsLoggedIn] = useState(true);
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [activeTab, setActiveTab] = useState("Giftcards");
     return (
         <>
